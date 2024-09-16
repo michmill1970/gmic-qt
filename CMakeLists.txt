@@ -351,6 +351,7 @@ if (APPLE)
     add_definitions(-D_IS_MACOS_)
     set(CMAKE_MACOSX_RPATH 1)
     set(BUILD_WITH_INSTALL_RPATH 1)
+    set(CMAKE_INSTALL_PREFIX "/opt/homebrew-new")
     add_definitions(-mmacosx-version-min=10.9 -Wno-macro-redefined -Wno-deprecated-register)
 endif()
 
